@@ -1,0 +1,16 @@
+.main{
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 2.5em 1.25em;
+    padding-bottom: 0;
+}
+
+.main > .main__title{
+    margin-left: 0.1325em;
+    margin-bottom: 1.25em;
+}
+
+.main__videos{
+    display: flex;
+    flex-wrap: wrap;
+}

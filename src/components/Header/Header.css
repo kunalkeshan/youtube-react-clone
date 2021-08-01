@@ -1,0 +1,98 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.header__logo{
+    height: 25px;
+    margin-left: 1.25em;
+    object-fit: contain;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid rgb(151, 151, 151);
+    height: 1.8em;
+    position: relative;
+}
+
+.header__input > input{
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    color: rgb(128, 128, 128);
+    position: absolute;
+    border-left: 1px solid rgb(163, 163, 163);
+    height: 1.1em !important;
+    right: 0;
+    top: 0;
+}
+
+.header__barsIcon{
+    cursor: pointer;
+}
+
+.header__icon{
+    margin-right: .5em;
+}
+
+.header__icon:hover{
+    color: #f00;
+    cursor: pointer;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 786px){
+    .header{
+        padding: 1em;
+        width: 100vw;
+    }
+
+    .header__logo{
+        height: 20px;
+        margin-left: .5em;
+    }
+
+    .header__input{
+        width: 40%;
+        height: 1.4em;
+    }
+    
+    .header__input > input{
+        width: 100%;
+        border-right: 1px solid rgb(163, 163, 163);
+    }
+    .header__inputButton{
+        width: 35px !important;
+        height: 0.8em !important;
+        right: 0;
+    }
+
+    .header__icon{
+        margin-right: .2em;
+        font-size: .5em;
+    }
+    .header__avatar{
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+}
