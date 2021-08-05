@@ -20,7 +20,7 @@ function App() {
           </Route>
           <Route path="/">
             <div className="app__page">
-              <Sideabar />
+              <Sidebar />
               <Main />
             </div>
           </Route>
